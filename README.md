@@ -1,12 +1,31 @@
-# React + Vite
+# 🎬 Mini App de Películas con React + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una mini aplicación construida con **React** y **Tailwind CSS** que consume una API pública para mostrar una lista de películas (o cualquier otro recurso) de manera visual y responsive.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías usadas
 
-## Expanding the ESLint configuration
+- ⚛️ React
+- 💨 Tailwind CSS
+- 🌐 API pública (fetch/axios)
+- 🧩 Ant Design (para componentes UI como tarjetas)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Instalación
+
+1. Clona este repositorio:
+
+
+git clone https://github.com/tuusuario/nombre-del-repo.git
+
+
+ Funcionalidades
+Listado dinámico de datos obtenidos desde una API.
+
+Renderizado de tarjetas (cards) con imágenes y títulos.
+
+Diseño responsive con Tailwind CSS.
+
+Separación de lógica mediante custom hooks (useMovie, etc).
